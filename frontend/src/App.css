@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border:2px solid black;
+  height: 100vh;
+  width: 100vw;
+  
+  
+}
+
+.certificate{
+  max-width: 800px;
+  padding: 20px;
+  margin-left: 32%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+  max-width: 100px;
+  max-height: 5%;
+  margin-top: auto;
+  padding-top: 30px;
+}
+
+.content{
+  text-align: justify;
+  align-items: center;
+  line-height: 1.5;
+}
+.FirstName{
+  padding: 20px;
+  margin-left: 32%;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+}
+.FirstNameinput{
+  border-radius: 6px solid black;
+  padding: 10px;
+  margin: 5px;
+  font-size: larger;
+  font-style: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lastname{
+  padding: 20px;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+}
+
+.lastnameinput{
+  border-radius: 6px solid black;
+  padding:  10px;
+  margin: 5px;
+  font-size: larger;
+  font-style: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mobilename{
+  padding: 20px;
+  margin-left: 32%;
+  font-size: larger;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+
+}
+.mobileinput{
+  border-radius: 6px solid black;
+  padding:  10px;
+  margin: 5px;
+  font-size: larger;
+  font-style: inherit;
+}
+
+.emailname{
+  padding: 15px;
+  margin-left: 32%;
+  font-size: larger;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+
+}
+.emailinput{
+  border-radius: 6px solid black;
+  padding:  10px;
+  margin: 5px;
+  font-size: larger;
+  font-style: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.university{
+  padding: 20px;
+  margin-left: 32%;
+  font-size: larger;
+}
+.universityname{
+  padding: 20px;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+}
+
+.universityinput{
+  border-radius: 6px solid black;
+  padding:  10px;
+  margin: 5px;
+  font-size: larger;
+  font-style: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.internship{
+  padding: 0px;
+  margin-left: 32%;
+  font-size: larger;
+}
+
+.internshipcomplete{
+  font-size: larger;
+  padding: 20px;
+}
+
+.internshipinput{
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+  border-radius: 6px ;
+}
+
+.companyname{
+  padding-top: auto;
+  margin-top: 0px;
+   
+}
+
+.companyinput{
+  padding-top: auto;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 0px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px solid black;
+}
+
+.companyaddress{
+  font-size: larger;
+  font-style: bold;
+}
+ 
+.companyaddresstext{
+  width: 40%;
+  height: 50px;
+  border-radius: 6px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button{
+  padding: 20px;
+  margin: 10px;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitbutton{
+  padding: 20px;
+  margin: 5px;
+  background-color: green;
+  font-style: bold;
+  font-size: larger;
+  border-radius: 6px;
+  text-shadow: 0cqmax;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
